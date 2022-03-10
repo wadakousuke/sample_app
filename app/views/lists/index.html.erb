@@ -4,7 +4,7 @@
     <% if list.image.attached? %>
       <% image_tag list.image, size: "200*200" %>
     <% else %>
-      <%= image_tag list.image, size: "200*200" %>
+      <%= image_tag "no_image", size: "200*200" %>
     <% end %>
     <div class="list-comment">
       <span class="list-body"><%= list.body %></span>
